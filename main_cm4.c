@@ -89,9 +89,9 @@ int main(void)
     NVIC_EnableIRQ(bouton_isr_cfg.intrSrc);
     vTaskStartScheduler();
     
+    
     for(;;)
     {
-        /* Place your application code here. */
     }
 }
 
